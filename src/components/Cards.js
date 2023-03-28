@@ -1,12 +1,12 @@
 import React from 'react'
 import CardItem from './CardItem'
-import { IMAGES } from './images'
+import { IMAGES } from '../utils/images'
 // console.log(IMAGES)
 
 const Cards = () => {
     return (
         <div className='cards'>
-            <h1> Check this out</h1>
+            <h1> Check Out my Latest News</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

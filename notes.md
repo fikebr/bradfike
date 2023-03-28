@@ -31,3 +31,12 @@ function App() {
 ---
 #  vscode-react-javascript-snippets
 - https://github.com/ults-io/vscode-react-javascript-snippets/blob/master/docs/Snippets.md
+
+# Starting a new React app
+npx create-react-app react_crud
+cd react_crud
+npm config set legacy-peer-deps=true -L "project"
+npm install react-bootstrap bootstrap
+
+--- update App.js
+import 'bootstrap/dist/css/bootstrap.min.css';
