@@ -40,3 +40,23 @@ npm install react-bootstrap bootstrap
 
 --- update App.js
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+---
+# Web Fonts.
+1. Find the font(s) that you want. Canva is a good source.
+2. Find the font on https://fonts.google.com/
+3. Update the index.html
+```
+https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata&display=swap
+```
+4. Apply the font in CSS... (the Veranda and sans-serif are backup fonts)
+```
+body {
+  font-family: 'Crimson Pro', Verdana, sans-serif;
+  font-size: 48px;
+}
+```
+---
+
+# 
+

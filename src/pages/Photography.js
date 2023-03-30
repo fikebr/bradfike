@@ -26,7 +26,7 @@ const styles = {
         left: "0px",
         top: "0px",
         "z-index": "-1",
-        filter: "blur(5px)",
+        filter: "blur(10px)",
     }
 }
 

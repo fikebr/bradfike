@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
@@ -19,6 +20,7 @@ function App() {
           <Route path='/photography' element={<Photography />} />
           <Route path='/blog' element={<Blog />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
