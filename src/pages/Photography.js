@@ -1,14 +1,12 @@
 import React from 'react';
 import '../App.css';
 import { IMAGES } from '../utils/images';
-import Footer from '../components/Footer';
 
 const Photography = () => {
     return (
         <>
             <img class="background" style={styles.background} src={IMAGES[5]} alt="background" width="300" height="300"></img>
             <h1 className='photography' style={styles.h1}>Photography</h1>
-            <Footer />
         </>
     );
 };

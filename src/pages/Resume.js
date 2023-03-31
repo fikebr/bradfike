@@ -19,7 +19,19 @@ const Skills = () => {
             <h5>Skills</h5>
 
             {data.skills.map((s, i) => {
-                return (<div key={i}>{s[0]} ( {s[1]} )</div>)
+                
+                    switch (s[2]) {
+                    case 1:
+                        return (<div key={i} className="text-bg-light ps-4 mb-1 text-nowrap">{s[0]} ( {s[1]} )</div>)
+                    case 2:
+                            return (<div key={i} className="text-bg-secondary ps-3 mb-1 text-nowrap">{s[0]} ( {s[1]} )</div>)
+                    case 3:
+                            return (<div key={i} className="text-bg-dark ps-2 mb-1 text-nowrap">{s[0]} ( {s[1]} )</div>)
+                    default:
+                        return (<div></div>);
+                    } 
+                    
+                
             })}
         </>
     )
@@ -41,16 +53,16 @@ const Education = () => {
 const ExpItem = ({ item }) => {
     return (
         <>
-            <Container>
-                <Row className="mt-3">
-                    <Col sm={3}>{item.start} to {item.end}</Col>
-                    <Col sm={3}><h5>{item.client}</h5></Col>
-                    <Col>{item.location}</Col>
-                </Row>
-                <Row>
-                    <Col className="ms-5">{item.tech_used}</Col>
-                </Row>
-            </Container>
+            <div>
+                <div className="mt-3 text-bg-secondary d-flex align-items-end">
+                    <div md={3} className="m-1">{item.client}</div>
+                    <div md={3} className="m-1">{item.start} - {item.end}</div>
+                    <div className="m-1">@ {item.location}</div>
+                </div>
+                <div>
+                    <div className="ms-5">{item.tech_used}</div>
+                </div>
+            </div>
         </>
     )
 }
@@ -58,7 +70,7 @@ const ExpItem = ({ item }) => {
 const Experience = () => {
     return (
         <>
-            <h2><b>Experience</b></h2>
+            <h2>Experience</h2>
             {data.experience.map((item, i) => {
                 return (
                     <ExpItem item={item} key={i} />
@@ -137,7 +149,7 @@ const Resume = () => {
                 <Col md={3}>
                     <div className="mb-4"><Contact /></div>
                     <div className="mb-4"><Skills /></div>
-                    <div><Links /></div>
+                    <div className="mb-4"><Links /></div>
                 </Col>
                 <Col>
                     <Summary />

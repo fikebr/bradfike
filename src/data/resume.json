@@ -7,12 +7,21 @@
         "address": "Houston, TX"
     },
     "skills": [
-        ["BMC Remedy v4-v9", "23 years"],
-        ["Python", "5 years"],
-        ["Javascript", "1 year"],
-        ["React", "< 1 year"],
-        ["Express", "< 1 year"],
-        ["Perl", "5 years"]
+        ["BMC Remedy v4-v9", "23 years", 3],
+        ["Python", "5 years", 2],
+        [
+            "Perl",
+            "5 years",
+            2
+        ],
+        [
+            "SQL",
+            "7 years",
+            2
+        ],
+        ["Javascript", "1 year", 1],
+        ["React", "< 1 year", 1],
+        ["Express", "< 1 year", 1]
     ],
     "education": [
         "University of Arkansas: Computer Science (1994-1996) (No Degree Earnerd)",
@@ -21,10 +30,10 @@
     ],
     "summary": {
         "basic1": [
-            "For 23 years I have worked for myself as an independent Remedy developer. I have worked for companies of all sizes, from Hilti Inc to Dell. I have worked on all phases of the development life-cycle from requirements gathering to production support. Every project is a new challenge that I was able to overcome.",
-            "I particularly excel in the requirements gathering phase of projects, in buiding custom Remedy applications outside of the ITSM application and in building integrations to existing applications.",
-            "I am looking to leave the independent consulting world. To find a project and team that will allow me to stay in Houston, TX.",
-            "Even though the majority of my professional experience has been as a Remedy my next project need not be a Remedy project. To that end I have recently acquired a Full-Stack MERN certification and I plan to add a ServiceNow Developer Certification to my resume.",
+            "For 23 years I have worked for myself as an independent Remedy developer. I have worked for companies of all sizes, from Hilti Inc to Dell. I have worked on all phases of the development life-cycle from requirements gathering to production support.",
+            "Outside side of my devepment skills, I particularly excel at requirements gathering, at buiding custom Remedy applications outside of the ITSM suite and at building integrations to existing applications.",
+            "I am looking to leave the independent consulting world. To find a long term project and team that will allow me to stay in Houston, TX.",
+            "Even though the majority of my professional experience has been as a Remedy developer my next project need not be a Remedy project. To that end I have recently acquired a Full-Stack MERN certification and I plan to add a ServiceNow Developer Certification to my resume.",
             "Personally, to address my recent employment gap, I was forced to take time away from work first due to Covid-19 and then to care for my mother-in-law during her battle with cancer. I am now ready and eager to get back to work."
         ]
     },
